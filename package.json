@@ -9,7 +9,9 @@
     "start": "parcel index.html --open",
     "lint": "eslint \"src/\" --cache --fix --format table",
     "format": "prettier --write \"src/**/*.{js,css}\"",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
