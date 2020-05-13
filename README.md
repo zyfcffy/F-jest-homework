@@ -14,16 +14,28 @@ If you use npm,
 npm install
 ```
 
-## Start server
+## Run Test
 
 ```
-yarn start
+yarn test
 ```
 
 If you use npm,
 
 ```
-npm start
+npm test
+```
+
+### with Watch Mode
+
+```
+yarn test:watch
+```
+
+### with Code Coverage
+
+```
+yarn test:coverage
 ```
 
 ## JS and CSS code lint in src/

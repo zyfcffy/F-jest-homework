@@ -1,8 +1,8 @@
 {
-  "name": "gtb-static-page",
+  "name": "jest-scaffold",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/dujuanxian/gtb-static-page.git",
+  "repository": "https://github.com/dujuanxian/F-jest-scaffold.git",
   "author": "杜娟 <jdu.xian@gmail.com>",
   "license": "MIT",
   "scripts": {
