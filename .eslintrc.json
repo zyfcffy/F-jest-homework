@@ -1,16 +1,26 @@
 {
   "extends": [
-    "airbnb-base", "prettier"
+    "airbnb-base",
+    "prettier",
+    "plugin:jest/recommended"
   ],
   "plugins": [
-    "prettier"
+    "prettier",
+    "jest"
   ],
   "rules": {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "jest/no-disabled-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/valid-expect": "error",
+    "jest/expect-expect": "error",
+    "jest/valid-describe": "error",
+    "jest/no-focused-tests": "warn"
   },
   "env": {
     "es6": true,
-    "browser": true
+    "browser": true,
+    "jest/globals": true
   },
   "parserOptions": {
     "ecmaVersion": 2018,
