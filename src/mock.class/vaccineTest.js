@@ -12,7 +12,7 @@ export default class VaccineTest {
   }
 
   test() {
-    if (this.recipient.hasAntibodies()) {
+    if (this.recipient.getHasAntibodies()) {
       return "Vaccine Test Success";
     }
     return "Vaccine Test Failed";

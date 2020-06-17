@@ -9,7 +9,7 @@ class Recipient {
     }
   }
 
-  hasAntibodies() {
+  getHasAntibodies() {
     return this.hasAntibodies;
   }
 }
