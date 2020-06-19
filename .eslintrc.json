@@ -16,8 +16,7 @@
     "jest/expect-expect": "error",
     "jest/valid-describe": "error",
     "jest/no-focused-tests": "warn",
-    "import/prefer-default-export": "warn",
-    "no-underscore-dangle": "warn"
+    "import/prefer-default-export": "warn"
   },
   "env": {
     "es6": true,
@@ -28,5 +27,16 @@
   "parserOptions": {
     "ecmaVersion": 2018,
     "sourceType": "module"
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.test.js"
+      ],
+      "rules": {
+        "global-require": 0,
+        "no-underscore-dangle": "warn"
+      }
+    }
+  ]
 }
